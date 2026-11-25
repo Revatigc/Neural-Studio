@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090911"><meta name="description" content="A Kannada-English LoRA fine-tuning studio — explore data, compare models, and inspect training metrics.">
+  <title>Neural Studio — Fine-tune with purpose</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css">
+</head>
+<body><canvas id="neural" aria-hidden="true"></canvas><div class="ambient"></div>
+<div class="app-shell">
+  <aside class="sidebar"><a class="brand" href="#overview"><span class="brand-mark"><i></i><i></i><i></i></span><span>NEURAL<span class="brand-light">STUDIO</span><small>FINETUNE LAB <b>01</b></small></span></a>
+    <div class="workspace"><div class="workspace-icon">K</div><div><small>ACTIVE WORKSPACE</small><strong>KannadaMind</strong></div><span class="chevron">⌄</span></div>
+    <div class="nav-label">WORKSPACE</div><nav class="nav">
+      <button class="nav-item active" data-page="overview"><span class="nav-icon">◫</span>Overview <kbd>01</kbd></button>
+      <button class="nav-item" data-page="playground"><span class="nav-icon">✳</span>AI Playground</button>
+      <button class="nav-item" data-page="training"><span class="nav-icon">⌁</span>Training runs<span class="nav-count">1</span></button>
+      <button class="nav-item" data-page="dataset"><span class="nav-icon">▤</span>Dataset explorer</button>
+      <button class="nav-item" data-page="evaluation"><span class="nav-icon">⌗</span>Evaluation</button>
+      <button class="nav-item" data-page="gallery"><span class="nav-icon">▧</span>Project images</button>
+    </nav><div class="nav-label resources-label">PROJECT</div><nav class="nav"><button class="nav-item" data-page="model"><span class="nav-icon">◈</span>Model card</button><button class="nav-item" data-page="settings"><span class="nav-icon">⚙</span>Settings</button></nav>
+    <div class="sidebar-bottom"><div class="gpu-status"><span class="pulse-dot"></span><div><small>COMPUTE STATUS</small><strong>Local demo mode</strong></div><span class="gpu-chip">DEMO</span></div><div class="profile"><div class="avatar">R</div><div><strong>Research workspace</strong><small>Personal project</small></div><span class="more">···</span></div></div>
+  </aside>
+  <main class="main"><header class="topbar"><div class="crumb"><span>KannadaMind</span><b>/</b><strong id="crumb-page">Overview</strong></div><div class="top-actions"><span class="live-pill"><i></i> LOCAL MODEL PROJECT</span><button class="icon-button" title="Notifications">♧<em></em></button><div class="top-avatar">R</div></div></header>
+  <div class="page-wrap" id="page-content"></div>
+  <footer><span>NEURAL STUDIO <b>·</b> EXPERIMENT 001</span><span>Built for language that feels like home </span></footer>
+  </main>
+</div><div class="toast" id="toast"></div><script src="app.js"></script></body></html>
