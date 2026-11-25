@@ -4,6 +4,8 @@
 
 This repository contains a responsive front end and a **FastAPI-to-Ollama local inference bridge**. Once the local model is pulled and Ollama is running, the playground sends questions to a real general-purpose model. This does not mean the KannadaMind LoRA adapter has been trained: the initial responses come from the base Qwen model. Training, measured evaluation, and publication are still separate project steps.
 
+Link : https://neural-studio-pink.vercel.app/
+
 ## See the website
 
 For real answers, start the local model runtime and the web app in two terminals:
